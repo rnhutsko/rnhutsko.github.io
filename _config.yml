@@ -1,0 +1,21 @@
+# Site settings
+title: Reinvention
+header-img: img/home-bg.png
+email: rnhutsko@gmail.com
+copyright_name: rnhutsko
+description: > # this means to ignore newlines until "baseurl:"
+  Lifetime learning put to the test...
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: @hutsko
+github_username:  rnhutsko
+learn_profile: rnhutsko
+email_username: rnhutsko@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
